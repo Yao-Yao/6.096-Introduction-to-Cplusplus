@@ -1,0 +1,318 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>MIT OpenCourseWare | Electrical Engineering and Computer Science | 6.096 Introduction to C++, January IAP 2011 | Syllabus</title>
+<!-- Begin Automatic Metadata Insertion --><meta content="6-096-introduction-to-c-january-iap-2011" name="WT.cg_n">
+<meta content="Syllabus" name="WT.cg_s">
+<meta content="Syllabus" name="Title">
+<meta content="This section contains course objectives, C++ online resources, and information about C++ coding environments." name="Description">
+<meta content="Dunietz, Jesse" name="Author">
+<meta content="Kovacs, Geza" name="Author">
+<meta content="Marrero, John" name="Author">
+<meta content="C++ programming,control flow,functions,arrays,strings,pointers,classes,object oriented programming,memory management" name="Keyword">
+<meta content="" name="Version">
+<meta content="6.096 Introduction to C++ | Syllabus" name="Search_Display">
+<!-- End Automatic Metadata Insertion --><link title="default" rel="stylesheet" type="text/css" href="../../common/styles/common.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../common/styles/courses.css">
+<link href="http://ocw.mit.edu/xml/ocwcc.rdf" type="application/rdf+xml" rel="metadata">
+<script type="text/javascript" src="../../common/scripts/common-utils-offline.js"></script>
+</head>
+<body id="home">
+        <a href="#main" class="skip" tabindex="-1">skip to content</a> <a id="top"></a>
+        <div id="container">
+            
+            
+                
+	
+
+
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572">
+<div class="portletStaticText portlet-static-site-header"><div id="page_header">
+<div class="logo"><h1><a href="http://ocw.mit.edu/"><img width="289" height="36" alt="MIT OpenCourseWare" src="../../common/images/logo-ocw-home_new.gif"></a></h1></div> <!-- end header --> <div class="social_media_header_links">
+<div class="social_media_label">Connect <br> with OCW:</div> <div class="social_media_icons">
+<a href="http://facebook.com/mitocw"> <img width="30" height="30" title="Follow OCW on Facebook." alt="Follow OCW on Facebook." src="http://ocw.mit.edu/images/facebook.png"></a> <a href="http://twitter.com/mitocw"> <img width="30" height="30" title="Follow OCW on Twitter." alt="Follow OCW on Twitter." src="http://ocw.mit.edu/images/twitter.png"></a>  <a href="http://ocw.mit.edu/jsp/subscribe.jsp?utm_source=header"> <img width="30" height="30" title="Subscribe to OCW's newsletter." alt="Subscribe to OCW's newsletter." src="http://ocw.mit.edu/images/Newsletter_icon-07.png"></a>
+</div>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+<div id="primary_nav">
+<ul id="nav">
+<li class="">
+<a href="http://ocw.mit.edu/">Home</a>
+    </li>
+	<li class="first active">
+<a href="http://ocw.mit.edu/courses/">Courses</a>
+    </li>
+	<li class="">
+<a href="http://ocw.mit.edu/donate">Donate</a>
+    </li>
+	<li class="">
+<a href="http://ocw.mit.edu/about/">About OCW</a>
+    </li>
+    
+   
+</ul>
+<!-- begin search area, inputs are placed inside div blocks to validate xhtml strict --><form method="get" action="../../common/search/AdvancedSearch.htm">
+<div class="searchform">
+    <input type="text" onblur="fillSearchBox()" onfocus="clearSearchBox()" maxlength="255" value="Enter search keyword" name="q" class="search" id="terms"><input type="image" alt="Go" src="../../common/images/go_new.gif" name="btnG" class="but"><a href="../../common/search/AdvancedSearch.htm">Advanced Search</a>
+</div>
+</form>
+<!-- end search area -->
+<ul id="secondary_nav">
+<li class="first"><a href="http://ocw.mit.edu/help">Help</a></li>
+    <li><a href="../../common/jsp/feedback.htm">Contact Us</a></li>
+</ul>
+<!-- end Primary Nav -->
+</div>
+
+            
+            
+            <div id="main">
+                
+                <div id="local_navigation">
+                    
+
+
+
+
+<div class="get_started">
+	<ul>
+<li><a href="http://ocw.mit.edu/courses">VIEW ALL COURSES</a></li>
+	</ul>
+</div>
+
+<script language="javascript" type="text/javascript">
+function toggleMenu(objID) {
+  if (!document.getElementById) return;
+  var ob = document.getElementById(objID);
+  ob.className = (ob.className == 'selected')?'': 'selected';
+}
+
+function toggleClass(id)
+{
+  var divtoggleClass= document.getElementById(id);
+  divtoggleClass.className = (divtoggleClass.className == 'mO')?'mC': 'mO';
+  return false;
+}
+function changeAlt(id)
+{
+  id.alt = (id.alt == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+  id.title = (id.title == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+}
+</script><!--Left Nav Starts --><div class="get_started">
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/index.htm" class="">Course Home</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/Syllabus/index.htm" class="selected">Syllabus</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/lecture-notes/index.htm" class="">Lecture Notes</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/assignments/index.htm" class="">Assignments</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul></ul>
+</div>
+	        
+		
+	</div>
+	
+
+<!--Left Nav Ends -->
+
+
+<div class="get_started">
+	<div class="leftNavSubhead">Translations*</div>
+	<ul>
+<li><a href="http://mit-ocw-thai.eng.chula.ac.th/MIT_THAI/e27e34e28e27e01e23e23e21e44e1fe1fe49e32e41e25e30e04e2de21e1ee34e27e40e15e2de23e4c-electrical-engineering-and-computer-science/6.096-e20e32e29e32e0be35e1ee25e31e2ae1ee25e31e2ae40e1ae37e49e2de07e15e49e19-iap-2009" title="Thai version of this course">ภาษาเขียน</a></li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+                </div>
+                
+                               
+                <div id="content_body">
+        <div class="page_links">
+            <div class="breadcrumb">
+                <div id="portal-breadcrumbs">
+
+    <a href="http://ocw.mit.edu/">Home</a>
+    <span class="breadcrumbSeparator">
+        &gt;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://ocw.mit.edu/courses">Courses</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science">Electrical Engineering and Computer Science</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="../../contents/index.htm">Introduction to C++</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Syllabus</span>
+         
+    </span>
+</div>
+
+            </div>
+        </div>
+        <div id="main_content_course">
+            <div id="courses_inner">
+                <h1>
+        <span class="" id="parent-fieldname-title">
+            Syllabus
+        </span>
+    </h1>
+                <div class="clear"></div>
+                <div class="mod8">
+                    
+                    
+        <div class="" id="parent-fieldname-text">
+            <h2 class="subhead">Course Meeting Times</h2> <p>Lectures: 3 sessions / week for 4 weeks, 1 hour / session</p> <p>Labs: 1 session / week for 4 weeks, 3 hours / session</p> <h2 class="subhead">Course Objectives</h2> <p>This is a fast-paced introductory course to the C++ programming language. It is intended for those with little programming background, though prior programming experience will make it easier, and those with previous experience will still learn C++-specific constructs and concepts.</p> <p>By the end of this course, you should be able to:</p> <ul>
+<li>Understand and use the basic programming constructs of C/C++</li>     <li>Manipulate various C/C++ datatypes, such as arrays, strings, and pointers</li>     <li>Isolate and fix common errors in C++ programs</li>     <li>Use memory appropriately, including proper allocation/deallocation procedures</li>     <li>Apply object-oriented approaches to software problems in C++</li>     <li>Write small-scale C++ programs using the above skills</li> </ul>
+<h2 class="subhead">Course Mechanics</h2> <p>You are responsible for all material presented in lectures. There will also generally be some extra notes in the problem sets building on the material that you should read before attempting the problem set. We strongly recommend that you attend labs, as you will almost certainly need help on the problem sets (C++ can be tricky!), but you are not required to stay for the entire lab.</p> <p>There is no textbook for this course. You may find some of the following online materials helpful:</p> <p><a href="http://cplusplus.com/doc/tutorial/">C++ Language Tutorial</a></p> <p><a href="http://en.wikiversity.org/wiki/Introduction_to_C++">Wikiversity: Introduction to C++</a></p> <p><a href="http://cplus.about.com/od/learning1/Learn_about_C_and_how_to_write_Programs_in_It.htm">Learn about C++ Programming</a></p> <h2 class="subhead">Assessment</h2> <p>There will be four problem sets (the last of which will be smaller) and a final project. You are encouraged to collaborate, but any code and write-ups you hand in must be your own.</p> <p>This is a P/D/F course. Each problem set will be graded out of 100. We will award a pass based on whether problem set grades are generally on par with the class average and whether the final project demonstrates an understanding of the material. There will be no exams.</p> <h2 class="subhead">Coding Environment</h2> <p>Generally, software developers do their development work in some sort of "integrated development environment" (IDE), which will have many built-in tools for editing, compiling, running, and debugging programs. We recommend that you use the IDE known as Code::Blocks, which is <a href="http://www.codeblocks.org/downloads/26">freely available</a>.</p> <p>You will also need to download the GNU C++ compiler (GCC). For Windows machines, you should use the MinGW version of it; you can install the version of Code::Blocks that comes bundled with MinGW, or follow the instructions <a href="http://mingw.org/wiki/Getting_Started">here</a>. If you're on a Mac, the easiest thing to do is install Xcode, which comes bundled with GCC. Xcode <a href="http://developer.apple.com/xcode/">can be downloaded here</a> (registration with Apple is required). If you're using Linux, you probably don't need our help on this one, and your operating system probably came with GCC anyway.</p> <p>There are many IDEs available besides Code::Blocks, and you may use any of them if you so desire. Another <a href="http://www.eclipse.org/downloads/">freely available</a> one is Eclipse, which is very powerful and works on all operating systems, though many have had technical problems in the past with installing/using it for C++.  (We recommend that you download the edition of Eclipse for C/C++ developers, but if you already have a different version of Eclipse, you can install the C/C++ add-ons through <a href="http://www.eclipse.org/cdt/downloads.php">Eclipse's add-on manager</a>.)  On a Mac, you can simply use the Xcode IDE; on Windows you can use <a href="https://www.dreamspark.com/Products/Product.aspx?ProductId=25">Microsoft Visual Studio on Windows</a> (registration with Microsoft DreamSpark required).  While all of these will serve the purpose well, we cannot guarantee that we will be able to help you with any problems that arise in the course of using them.</p>
+            
+        </div>
+    
+                    
+
+
+
+
+
+                    
+                    
+                    
+                    
+        <div class="" id="parent-fieldname-bottomtext">
+            
+            
+        </div>
+    
+                                       
+                </div>
+<!-- mod8 ends -->
+            </div>
+<!-- courses_inner ends -->
+            
+        </div>
+<!-- main_content_course ends -->
+      </div>
+<!-- content_body END -->
+                                
+            </div>
+<!-- main end -->
+            <div id="footer">
+                
+<div id="portletwrapper-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572" class="portletWrapper kssattr-portlethash-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572">
+<div class="portletStaticText portlet-static-site-footer"><div class="footer">
+<div class="footer_logo">
+<a href="http://web.mit.edu"> 
+<img width="65" height="35" align="top" title="MIT Logo" src="../../common/images/trans.gif" alt="MIT Logo"></a>  
+<a href="../../common/terms/index.htm"> 
+<img width="100" height="13" align="top" title="Copyright MIT" src="../../common/images/trans.gif" alt="Copyright MIT"></a>
+</div>
+<div class="footer_links">
+<ul>
+<li class="first">
+<a href="http://ocw.mit.edu/about/rss/">
+<img width="32" height="15" align="absbottom" src="../../common/images/footer_rss_new.gif" alt="RSS Feeds"></a> 
+<a href="http://ocw.mit.edu/about/rss/">RSS Feeds</a>
+</li>
+    <li><a href="../../common/terms/index.htm">Privacy and Terms of Use</a></li>
+    <li><a href="http://ocw.mit.edu/help/site-map/">Site Map</a></li>
+    <li><a href="http://ocw.mit.edu/help/faq-cite-ocw-content/">Cite OCW Content</a></li>
+</ul>
+<p>Your use of the MIT OpenCourseWare site and course materials is subject to our Creative Commons License and other terms  of use.</p>
+<!-- end footer links -->
+</div>
+<div class="license">
+<a class="first" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" rel="license" target="_blank"><img width="80" height="15" src="../../common/images/cc_logo_new.gif" alt="Creative Commons - some rights reserved"></a><br><a class="first" href="http://www.ocwconsortium.org/" target="_blank">
+<img width="80" height="44" src="../../common/images/ocw-logo_new.gif" alt="OCW Consortium"></a>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+                
+            </div>
+<!-- footer end -->
+        </div>
+<!-- container end -->    
+      </body>
+</html>

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1313237777 source:f:\mit opencoursewares\mit opencourseware  eecs  6.096 introduction to c++\assn3 - 5 polygon\assn\assn.cpp
+	<iostream>
+	"geometry.h"
+
+1313238262 f:\mit opencoursewares\mit opencourseware  eecs  6.096 introduction to c++\assn3 - 5 polygon\assn\geometry.h
+	<iostream>
+
+1313235997 source:f:\mit opencoursewares\mit opencourseware  eecs  6.096 introduction to c++\assn3 - 5 polygon\assn\geometry.cpp
+	"geometry.h"
+	<cmath>
+
